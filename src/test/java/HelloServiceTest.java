@@ -15,4 +15,12 @@ public class HelloServiceTest {
         assertThat(helloService.sayHello(), is("hello"));
     }
 
+    public void addUnCoveredLines() {
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+    }
+
 }
